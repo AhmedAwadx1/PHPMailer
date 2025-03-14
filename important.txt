@@ -1,2 +1,9 @@
-app name : MailerGmail
-Password :   akoz onrr dksi fvxp
+$mail->Username: Your Gmail address (e.g., your-email@gmail.com).
+
+$mail->Password: Your Gmail app password (if using 2FA) or your Gmail account password.
+
+$mail->setFrom(): Sets the sender's email and the application name (e.g., Your Application Name).
+
+$mail->SMTPSecure: Use PHPMailer::ENCRYPTION_STARTTLS for TLS encryption.
+
+$mail->Port: Use port 587 for TLS.
