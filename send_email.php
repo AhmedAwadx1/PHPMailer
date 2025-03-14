@@ -23,8 +23,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'awaaad528@gmail.com'; // حساب المرسل
-        $mail->Password   = 'akozonrrdksifvxp'; // كلمة المرور الخاصة بالتطبيق
+        $mail->Username   = 'awa*****8@gmail.com'; // حساب المرسل
+        $mail->Password   = '********'; // كلمة المرور الخاصة بالتطبيق
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
